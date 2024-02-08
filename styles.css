@@ -1,0 +1,72 @@
+/* Selectors */
+
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Hex color notation */
+    color: #333; /* Hex color notation */
+}
+
+/* Class Selector */
+.highlight-link {
+    color: #ff4500; /* Hex color notation */
+    text-decoration: none;
+}
+
+/* ID Selector */
+header {
+    background-color: #4682b4; /* Hex color notation */
+    color: #fff; /* Hex color notation */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Hover Pseudo-class */
+nav ul li:hover {
+    background-color: #ffa07a; /* Hex color notation */
+}
+
+/* Hierarchical Relationship Selector */
+nav ul li a {
+    color: #000080; /* Hex color notation */
+}
+
+/* Font Styles */
+h1 {
+    font-family: "Times New Roman", serif;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Border */
+section {
+    border: 1px solid #d3d3d3; /* Hex color notation */
+    padding: 10px;
+}
+
+/* Geometry */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Class-based Selector */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid #333;
+    margin: 20px auto;
+}
+
+/* Styling for section headings */
+h2 {
+    color: #4682b4; /* Set the color to match the header for a cohesive look */
+    font-family: 'Arial', sans-serif; /* Consistency with the body font */
+    text-transform: uppercase; /* Adds stylistic emphasis to headings */
+    margin-top: 20px; /* Adds space above the headings for better separation */
+    border-bottom: 2px solid #d3d3d3; /* Adds a subtle line beneath the heading for definition */
+    padding-bottom: 5px; /* Ensures a little space between the text and the border */
+}
